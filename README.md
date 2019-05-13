@@ -1,5 +1,4 @@
-# Dogs-Breed-Classification
-# Dog breed Image classification model
+# Multi Class Image Classification
 
 We have is a training dataset that consists of number of images, each labeled with one of K different classes.We use this training data set to train our classifier and then evaluate our model performance to predict the labels for a new set of images and compare the predicted results with actual labels.
 
