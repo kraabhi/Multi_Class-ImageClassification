@@ -45,4 +45,13 @@ https://datahack.analyticsvidhya.com/contest/practice-problem-identify-the-appar
 
 I tried to train model from scrach using small layer network first then I will see the improvement in performance by using transfer learning
 
+## Task 2 : Identify Digits
+
+We have a total of 70,000 images – 49,000 labelled ones in the training set and the remaining 21,000 in the test set (the test images are unlabelled). We need to identify/predict the class of these unlabelled images.
+
+Data can be found at :
+
+https://datahack.analyticsvidhya.com/contest/practice-problem-identify-the-digits/
+
+
 
