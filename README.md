@@ -41,6 +41,8 @@ We have a total of 70,000 images (28 x 28 dimension), out of which 60,000 are fr
 
 Data can be found at :
 
-https://datahack.analyticsvidhya.com/contest/practice-problem-identify-the-apparels/
+https://datahack.analyticsvidhya.com/contest/practice-problem-identify-the-apparels
+
+I tried to train model from scrach using small layer network first then I will see the improvement in performance by using transfer learning
 
 
