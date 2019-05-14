@@ -35,3 +35,12 @@ You should have 2 folders, one for the train set and the other for the test set.
 
 1. The .csv file contains the names of all the training images and their corresponding true labels
 2. The image folder has all the training images.
+
+## Task 1 :Apparel classification 
+We have a total of 70,000 images (28 x 28 dimension), out of which 60,000 are from the training set and 10,000 from the test one. The training images are pre-labelled according to the apparel type with 10 total classes. The test images are, of course, not labelled. The challenge is to identify the type of apparel present in all the test images.
+
+Data can be found at :
+
+https://datahack.analyticsvidhya.com/contest/practice-problem-identify-the-apparels/
+
+
