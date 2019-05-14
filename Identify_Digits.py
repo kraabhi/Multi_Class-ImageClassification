@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 from keras.utils import to_categorical
 from tqdm import tqdm
 
-# reading train file with labels for image
+# reading train file with labels for image ,  give the path where you save your images. In my case it is in digits/train.
 train = pd.read_csv('digits/train.csv')
 train.head()
 train.label.nunique()
