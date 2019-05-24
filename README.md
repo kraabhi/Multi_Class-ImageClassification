@@ -11,15 +11,15 @@ Simply put, a pre-trained model is a model created by some one else to solve a s
 When we are trying to use pre-trained models we would not have to train entire architecture but only a few layers.
 
 ### How to use Pre trained Model
-When we train a neural network we wish to identify correct weights by using multiple forward and backward iterations.So intead to doing again andagain Forward and Back iterations we use pre trained models which ahve already been trained on large data sets , we can directly use their weights and architecture and apply the learning on our problem statement. This is known as transfer learning. We “transfer the learning” of the pre-trained model to our specific problem statement.Since we assume that the pre-trained network has been trained quite well, we would not want to modify the weights too soon and too much. While modifying we generally use a learning rate smaller than the one used for initially training the model.
+When we train a neural network we wish to identify correct weights by using multiple forward and backward iterations.So intead to doing again and again Forward and Back iterations we use pre trained models which have already been trained on large data sets , we can directly use their weights and architecture and apply the learning on our problem statement. This is known as transfer learning. We “transfer the learning” of the pre-trained model to our specific problem statement.Since we assume that the pre-trained network has been trained quite well, we would not want to modify the weights too soon and too much. While modifying we generally use a learning rate smaller than the one used for initially training the model.
 ### Scenario 1 – 
 Size of the Data set is small while the Data similarity is very high – In this case, since the data similarity is very high, we do not need to retrain the model. All we need to do is to customize and modify the output layers according to our problem statement. 
 ### Scenario 2 –
 Size of the data is small as well as data similarity is very low – We freeze the initial layers and traint he remaining layers.The top layers would be customized to the new data set.The small size of the data set is compensated by the fact that the initial layers are kept pretrained and the weights for those layers are frozen.
 ### Scenario 3 – 
-Size of the data set is large however the Data similarity is very low - We need to train the model from scratch as data is large and there is lwess similarity so use of pre trained model weights would not be effective.
+Size of the data set is large however the Data similarity is very low - We need to train the model from scratch as data is large and there is less similarity so use of pre trained model weights would not be effective.
 ### Scenario 4 – 
-Size of the data is large as well as there is high data similarity : This is best situaltion wher we can use our pretrained model as it is.
+Size of the data is large as well as there is high data similarity : This is best situaltion where we can use our pretrained model as it is.
 
 ### These are few previously trained model’s that can be used for transfer learning.
 
