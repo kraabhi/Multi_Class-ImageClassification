@@ -1,5 +1,12 @@
 # Multi Class Image Classification
 
+I suggest every one to go through all the parts from the given links to have crisp and clear understanding of different architectures
+and basic building blocks of CNN.
+
+https://adeshpande3.github.io/A-Beginner%27s-Guide-To-Understanding-Convolutional-Neural-Networks/
+https://www.analyticsvidhya.com/blog/2018/12/guide-convolutional-neural-network-cnn/
+https://adeshpande3.github.io/adeshpande3.github.io/The-9-Deep-Learning-Papers-You-Need-To-Know-About.html
+
 We have is a training dataset that consists of number of images, each labeled with one of K different classes.We use this training data set to train our classifier and then evaluate our model performance to predict the labels for a new set of images and compare the predicted results with actual labels.
 
 ### Transfer Learning
