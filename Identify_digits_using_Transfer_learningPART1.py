@@ -39,7 +39,7 @@ for i in tqdm(range(test.shape[0])):
     test_img.append(img)
 test_img1 = np.array(test_img)
 test_img1 = preprocess_input(test_img1)   # for each architecture there is fix shape of input that model accepts.
-                                          # some model accepts input inpot in ranges (0 ,1) , others (-1, 1)  or values which are not normalized at all.
+                                          # some model accepts input in ranges (0 ,1) , others (-1, 1)  or values which are not normalized at all.
 
 # Load model weights
 
